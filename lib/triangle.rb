@@ -9,7 +9,10 @@ class Triangle
 
   def kind
     # :equilateral, :isosceles, :scalene
-    raise TriangleError
+    begin
+      raise TriangleError
+    rescue TriangleError => error
+      error.message
 
 
   class TriangleError < StandardError
