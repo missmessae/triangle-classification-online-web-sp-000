@@ -15,6 +15,7 @@ class Triangle
       error.message
   else
     return
+  end
 
 
   class TriangleError < StandardError
