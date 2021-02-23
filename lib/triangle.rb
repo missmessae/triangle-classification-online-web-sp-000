@@ -7,14 +7,12 @@ class Triangle
     @side_three = side_three
   end
 
-  def kind
-    # :equilateral, :isosceles, :scalene
-    begin
+  def kind  # :equilateral, :isosceles, :scalene
+    if
+    
+    else
       raise TriangleError
-    rescue TriangleError => error
-      error.message
-  else
-    return
+    end
   end
 
 
