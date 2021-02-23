@@ -13,6 +13,8 @@ class Triangle
       raise TriangleError
     rescue TriangleError => error
       error.message
+  else
+    return 
 
 
   class TriangleError < StandardError
