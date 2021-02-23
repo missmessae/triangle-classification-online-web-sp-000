@@ -1,6 +1,5 @@
 class Triangle
   attr_accessor :side_one, :side_two, :side_three
-  # :equilateral, :isosceles, :scalene
 
   def initialize(:side_one, :side_two, :side_three)
     @side_one = side_one
@@ -9,12 +8,12 @@ class Triangle
   end
 
   def kind
-
+    # :equilateral, :isosceles, :scalene
     raise TriangleError
 
 
   class TriangleError < StandardError
-
+    
   end
 
   #The sum of the lengths of any two sides of a triangle always exceeds the
