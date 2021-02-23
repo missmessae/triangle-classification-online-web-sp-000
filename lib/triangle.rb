@@ -13,7 +13,7 @@ class Triangle
 
 
   class TriangleError < StandardError
-    
+
   end
 
   #The sum of the lengths of any two sides of a triangle always exceeds the
